@@ -1,0 +1,83 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# rc.anesthesia
+
+<!-- badges: start -->
+
+[![Project Status: WIP – Initial development is in progress, but there
+has not yet been a stable, usable release suitable for the
+public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![R-CMD-check](https://github.com/gipso/rc.anesthesia/workflows/R-CMD-check/badge.svg)](https://github.com/gipso/rc.anesthesia/actions)
+[![Codecov test
+coverage](https://codecov.io/gh/gipso/rc.anesthesia/branch/main/graph/badge.svg)](https://app.codecov.io/gh/gipso/rc.anesthesia?branch=main)
+[![License:
+MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
+<!-- badges: end -->
+
+## Overview
+
+`rc.anesthesia` is an R package with the research compendium of the
+Interdisciplinary Sleep Research Group (GIPSO) anesthesia project. The
+aim of `rc.anesthesia` is to facilitate the research work, in addition
+to contributing to the reproducibility of the research.
+
+The assemble of this package was inspired by Ben Marwick, Carl Boettiger
+& Lincoln Mullen’s article [“Packaging Data Analytical Work Reproducibly
+Using R (and Friends)”](https://doi.org/10.1080/00031305.2017.1375986).
+
+## Installation
+
+You can install `rc.anesthesia` from GitHub with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("gipso/rc.anesthesia")
+```
+
+We don’t intend to publish this package to CRAN.
+
+## Encryption
+
+Some data files were encrypted in order to preserve the anonymity of the
+study participants. You can identify those files by the `.encryptr.bin`
+extension. Contact the authors if you need access to them.
+
+## License
+
+[![License:
+MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
+
+`rc.anesthesia` code is released under the [MIT
+license](https://opensource.org/licenses/mit/). Please note that
+`rc.anesthesia` data are proprietary and cannot be shared without the
+authors’ permission.
+
+## Citation
+
+If you use `rc.anesthesia` in your research, please consider citing it.
+We put a lot of work to build and maintain a free and open-source R
+package. You can find the `rc.anesthesia` citation below.
+
+``` r
+citation("rc.anesthesia")
+#> 
+#> To cite {rc.anesthesia} in publications use:
+#> 
+#>   Rodrigues-Santos, A. S., Vartanian, D., & Pedrazzoli, M. (2022).
+#>   {rc.anesthesia}: an R package with the research compendium of the
+#>   GIPSO anesthesia project (v. 0.0.0.9000).
+#>   https://gipso.github.io/rc.anesthesia/
+#> 
+#> A BibTeX entry for LaTeX users is
+#> 
+#>   @Unpublished{,
+#>     title = {{rc.anesthesia}: an R package with the research compendium of the GIPSO anesthesia project},
+#>     author = {Alisson da Silva Rodrigues dos Santos and Daniel Vartanian and Mario Pedrazzoli},
+#>     year = {2022},
+#>     url = {https://gipso.github.io/rc.anesthesia/},
+#>     note = {(v. 0.0.0.9000). Lifecycle: experimental},
+#>   }
+```

@@ -1,0 +1,41 @@
+library(checkmate)
+library(rc.anesthesia)
+library(testthat)
+
+test_check("rc.anesthesia")
+
+# # For development use only (comment the code after use (Ctrl + Shift + C)).
+#
+# .rs.restartR()
+# cffr::cff_write()
+# codemetar::write_codemeta()
+# covr::package_coverage()
+# devtools::check()
+# devtools::document()
+# devtools::install()
+# devtools::release()
+# devtools:test()
+# goodpractice::gp()
+# normalizePath(readClipboard(), "/", mustWork = FALSE)
+# pkgdown::build_article("mctq")
+# pkgdown::build_favicons(overwrite = TRUE)
+# pkgdown::build_reference()
+# pkgdown::build_site()
+# spelling::spell_check_package()
+# spelling::update_wordlist()
+# urlchecker::url_check()
+# usethis::use_coverage()
+# usethis::use_github_action("check-pak")
+# usethis::use_github_action("test-coverage-pak")
+# usethis::use_logo(file.choose())
+# usethis::use_tidy_description()
+
+# # Encryption
+#
+# encryptr::genkeys()
+# encryptrpak::encrypt_extdata(devtools_load = TRUE)
+# encryptrpak::decrypt_extdata(devtools_load = TRUE)
+# encryptrpak::get_private_key(devtools_load = TRUE)
+# encryptrpak::get_public_key(devtools_load = TRUE)
+# encryptrpak::get_private_key_path(devtools_load = TRUE)
+# encryptrpak::get_public_key_path(devtools_load = TRUE)
