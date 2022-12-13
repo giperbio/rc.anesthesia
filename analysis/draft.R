@@ -66,8 +66,8 @@ lubridate::as.duration(mean(vd_light_female)) %>% as.numeric(.) / 60 / 60
 lubridate::as.duration(mean(vd_dark_male)) %>% as.numeric(.) / 60 / 60
 lubridate::as.duration(mean(vd_dark_female)) %>% as.numeric(.) / 60 / 60
 
-stats::t.test(vd_male_light, vd_male_dark, paired = TRUE)
-stats::t.test(vd_female_light, vd_female_dark, paired = TRUE)
+stats::t.test(vd_light_male, vd_dark_male, paired = TRUE)
+stats::t.test(vd_light_female, vd_dark_female, paired = TRUE)
 
 # VD x sex
 vd_male <- c(
@@ -118,4 +118,3 @@ lubridate::as.duration(mean(vd_female_dark)) %>% as.numeric(.) / 60 / 60
 
 stats::t.test(vd_male_light, vd_female_light, paired = FALSE)
 stats::t.test(vd_male_dark, vd_female_dark, paired = FALSE)
-
